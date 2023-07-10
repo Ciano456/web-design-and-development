@@ -1,0 +1,39 @@
+body {
+    background-color: #FF3131;
+    color: #FFDE59;
+    font-family: 'Open Sauce One', sans-serif;
+    font-family: 'Open Sauce Two', sans-serif;
+    font-family: 'Open Sauce Sans', sans-serif;
+    
+}
+header {
+    font-size: 30px;
+    color: #FFDE59; 
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #FF3131 ;
+}
+#logoleft{
+    width: 30%; 
+}
+
+h1 {
+    text-align: center; 
+    font-size: 40px; 
+}
+
+.nav-bar {
+    text-align: center;
+    color:#FFDE59; 
+    padding: 10px;
+    background-color: #FFDE59;
+
+}
+
+.menu {
+    width: 500px;
+    
+
+    
+}
+

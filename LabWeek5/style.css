@@ -1,0 +1,14 @@
+
+@media (min-width: 768px) {
+    .profile-image {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 767px) {
+    .profile-image {
+        width: 100px;
+        height: 100px;
+    }
+}

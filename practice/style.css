@@ -1,0 +1,27 @@
+@media screen and (max-width: 980px){
+    #wrapper{
+        width: 90%;
+    }
+
+    #content{
+        width: 60%;
+        background-color: olive;
+    }
+
+    #navbar{
+        width: 30%;
+        background-color: teal;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #content {
+        width: auto;
+        float: none;
+        background-color: orange;
+    }
+    #navbar {
+        width: auto;
+        float: none;
+    }
+}

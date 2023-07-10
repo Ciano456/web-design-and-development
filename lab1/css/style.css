@@ -1,0 +1,36 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+#header{
+    background-color: burlywood;
+    border: 2px rosybrown; 
+    height: 300; 
+    font-family: "Roboto Condensed";
+}
+
+#logo{
+    float: left; 
+}
+
+#headerText{
+    text-align:center;
+}
+
+#main{
+    background-color: tan;
+    margin: auto;
+    text-align: center;
+}
+
+#cat{
+    float:right;
+    
+
+}
+#centerimages{
+    background-color: tan;
+}
+
+
+

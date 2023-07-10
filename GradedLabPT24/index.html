@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    
+    <table>
+        <tr>
+            <td id="heading">Create Account</td>
+        </tr>
+        <tr>
+            <td>First Name:</td>
+            <td><input type="text" id="firstname" name="firstname" required></td>
+        </tr>
+        <tr>
+            <td>Last Name:</td>
+            <td><input type="text" id="lastname" name="lastname" required></td>
+        </tr>
+        <tr>
+            <td>Email Address:</td>
+            <td><input type="text" id="email" name="email" required></td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td><input type="password" id="password" name="password" required></td>
+        </tr>
+        <tr>
+            <td>Confirm Password:</td>
+            <td><input type="password" id="confirm-password" name="confirm-password" required></td>
+        </tr>
+        <tr>
+            <td>Gender:</td>
+            <td>
+                <input type="checkbox" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <br>
+                <input type="checkbox" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <br>
+                <input type="checkbox" id="prefer-not-to-say" name="gender" value="prefer-not-to-say">
+                <label for="prefer-not-to-say">Prefer Not to Say</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Hobbies:</td>
+            <td>
+                <input type="checkbox" id="movies" name="hobbies" value="movies">
+                <label for="movies">Movies</label>
+                <br>
+                <input type="checkbox" id="sports" name="hobbies" value="sports">
+                <label for="sports">Sports</label>
+                <br>
+                <input type="checkbox" id="travel" name="hobbies" value="travel">
+                <label for="travel">Travel</label>
+                <br>
+                <input type="checkbox" id="music" name="hobbies" value="music">
+                <label for="music">Music</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Source of Income:</td>
+            <td>
+                <select id="income-source" name="income-source">
+                    <option value="employed">Employed</option>
+                    <option value="self-employed">Self-Employed</option>
+                    <option value="unemployed">Unemployed</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Additional Comments:</td>
+            <td><textarea id="additional-comments" name="additional-comments" rows="4"></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;">
+                <input type="submit" value="Submit" class="submit-btn">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

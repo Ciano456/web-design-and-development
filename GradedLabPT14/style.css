@@ -1,0 +1,21 @@
+body {
+    background-color: pink;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    background-color: white;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    font-family: 'Google Font', sans-serif;
+}
+
+img {
+    max-width: 100px;
+}
